@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid black !important; */
 }
 
 html, body {
@@ -101,10 +102,100 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .boxone {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxtwo {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxthree {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxfour {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxfive {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxsix {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxseven {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxeight {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxnine {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .boxten {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +234,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:35px 0;
+}
+header .logo {
+    display:flex;
+    width:20%;
+
+}
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+nav a{
+    text-decoration: none;
+    text-align:center;
+    color:black
+}
+.jumbo{
+    display:flex;
+    padding-bottom: 20px;
+}
+.about{
+    /* margin: 20px; */
+    padding:20px;
+    border-bottom:black dashed 1px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+.main-content div{
+    border-bottom: black dashed 1px;
+    border-width: 50%;
+    justify-content: center;
+    padding: 30px;
+    width:50%;
+    flex-wrap: wrap;
+}
+.main-content div a{
+    text-decoration: none;
+    color:black;
+    border:black solid 2px;
+    border-radius: 10px;
+    padding:8px 20px;
+    margin:10px;
+}
+.main-content h2{
+    margin:10px;
+}
+.main-content p{
+    margin:20px;
+}
+.workTogether{
+    padding:50px 20px;
 }
