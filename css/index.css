@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid black !important; */
 }
 
 html, body {
@@ -143,4 +144,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:35px 0;
+}
+header .logo {
+    display:flex;
+    width:20%;
+
+}
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+nav a{
+    text-decoration: none;
+    text-align:center;
+}
+.jumbo{
+    display:flex;
+    padding-bottom: 20px;
 }
